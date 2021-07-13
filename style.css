@@ -23,7 +23,7 @@ nav > ul > li {
 nav > ul > li > a:link,
 nav > ul > li > a:visited {
   text-decoration: none;
-  color: slategray;
+  color: rgb(0, 0, 0);
 }
 
 nav > ul > li > a:hover,
@@ -40,9 +40,8 @@ nav > ul > li > a:active {
 
 #border-2 {
   position: relative;
-  height: 400px;
   bottom: 4px;
-  background: #414930;
+  background: #ffffff;
 }
 
 .container {
@@ -51,13 +50,63 @@ nav > ul > li > a:active {
 }
 
 main img {
+  padding-top: 30px;
+  height: 30%;
   margin: 0;
   width: min(100%, 70.5rem);
 }
 
-footer {
+#intro-text {
   position: relative;
-  background-color: red;
+  text-align: center;
+  z-index: auto;
+  bottom: 600px;
+  left: 460px;
+  border: 3px solid black;
+  display: inline;
+  padding: 30px;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+#intro h2 {
+  position: relative;
+  border: 0;
+  bottom: 500px;
+  padding: 30px;
+  font-family: "Otomanopee One", sans-serif;
+}
+
+#coffee-img {
+  width: 100%;
+  height: auto;
+}
+
+#food-img {
+  width: 100%;
+  height: auto;
+}
+
+#coffee-intro {
+  margin: auto;
+}
+
+#food-intro {
+  margin: auto;
+}
+
+.wrapper {
+  grid-auto-rows: minmax(80px, auto);
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  font-family: "Otomanopee One", sans-serif;
+  grid-gap: 3em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  position: static;
+  background-color: rgb(20, 14, 14);
   height: 80px;
   bottom: 4px;
 }
