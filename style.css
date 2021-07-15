@@ -4,14 +4,21 @@
 }
 
 header {
-  margin-top: 60px;
+  margin: 0 auto;
+  width: min(50%, 68rem);
   display: block;
   text-align: center;
   font-family: "Otomanopee One", sans-serif;
+  position: fixed;
+
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: blanchedalmond;
 }
 
 nav ul {
-  margin-top: 60px;
+  margin-top: 50px;
   word-spacing: 200px;
   text-align: center;
 }
@@ -50,9 +57,7 @@ nav > ul > li > a:active {
 }
 
 main img {
-  padding-top: 30px;
-  height: 30%;
-  margin: 0;
+  height: 100%;
   width: min(100%, 70.5rem);
 }
 
@@ -109,4 +114,5 @@ footer {
   background-color: rgb(20, 14, 14);
   height: 80px;
   bottom: 4px;
+  margin-bottom: 20px;
 }
